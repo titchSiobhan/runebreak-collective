@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Runebreak Collective</title>
+    <link rel="icon" href="resource/leaf-rune.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="hero">
+               
+                <div class="hero-content">
+                    <h1>Runebreak Collective</h1>
+                    <h2>Break the runes. Rewrite the myth.</h2>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="hamburger" onclick="hamburger()">&#9776;</div>
+            <div class="nav-links" id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="games.html">Games</a>
+                <a href="dev-blog.html">Dev Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <section class="carousel">
+            <div class="mySlides fade" style="display:block;">
+                <div class="numbertext">1 / 2</div>
+                <img src="resource/ash-oath.png" alt="Game 1" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Ash & Oath</h3>
+                    <p>Some promises burn. Others bury you.</p>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="resource/ashroot-covenant.png" alt="Game 2" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Ashroot Covenant</h3>
+                    <p>Grow your legend, one root at a time</p>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </section>
+        
+        <aside class="sidebar">
+            <h2>Latest News</h2>
+                <a href="dev-blog.html">Exciting New Game Announcement!</a>
+                <a href="sign-up.html">Sign up to our newsletter</a>
+                <a href="community.html">Community</a>
+            
+        </aside>
+        <footer>
+            <p>&copy; 2024 Ashroot Covenant. All rights reserved.</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
